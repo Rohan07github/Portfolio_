@@ -1,0 +1,1 @@
+const navLink1 = document.getElementById("nav-link1");

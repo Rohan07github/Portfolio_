@@ -1,0 +1,53 @@
+
+
+.fa-github {
+    color: black;
+}
+
+.fa-github:hover {
+    color: grey;
+}
+
+
+.navlink,
+.dropdown-item {
+    font-size: 40px !important;
+    color: white !important;
+}
+
+.profile-img {
+height: 90px;
+width: 90px;
+}
+
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0px;
+    width: 100px;
+    font-family: "Montserrat";
+}
+
+.footer1 {
+    padding: 20px;
+}
+
+.footer2 {
+    padding: 20px;
+}
+
+.here {
+    border-style: solid;
+    border-color: goldenrod;
+    border-width: 2px;
+    padding: 2px;
+    background-color: white;
+    color: black !important;
+    border-radius: 5px;
+} 
+.here:hover{
+    color: goldenrod !important;
+}
