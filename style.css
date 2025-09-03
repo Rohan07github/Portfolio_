@@ -1,53 +1,73 @@
-
-
-.fa-github {
-    color: black;
+html {
+    font-size: 12px;
+    -webkit-font-smoothing: antialised
 }
 
-.fa-github:hover {
-    color: grey;
+body {
+    font-family: poppins, sans-serif;
+    color: #868686;
+}
+
+.navbar {
+    position: absolute;
+    display: block;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 2.7rem;
+}
+
+.brand {
+    line-height: 1.6;
+    color: #fff;
+    display: inline-block;
+}
+
+a.brand:hover,a.brand:focus {
+    text-decoration: none;
+    color: #fff
+}
+
+.brand img {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: .65rem;
+    height: 2.356rem
+}
+
+.brand-info {
+    display: inline-block
+}
+
+.brand-name {
+    font-weight: 600;
+    font-size: 1.714rem;
+    line-height: 1
+}
+
+.brand-text {
+    font-size: .857rem;
+    font-weight: 300;
+    margin-top: -.3rem
+}
+
+.navbar-toggle {
+    float: right;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    background: 0 0;
+    border: 0
 }
 
 
-.navlink,
-.dropdown-item {
-    font-size: 40px !important;
-    color: white !important;
-}
 
-.profile-img {
-height: 90px;
-width: 90px;
-}
-
-
-.footer {
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    bottom: 0px;
-    width: 100px;
-    font-family: "Montserrat";
-}
-
-.footer1 {
-    padding: 20px;
-}
-
-.footer2 {
-    padding: 20px;
-}
-
-.here {
-    border-style: solid;
-    border-color: goldenrod;
-    border-width: 2px;
-    padding: 2px;
-    background-color: white;
-    color: black !important;
-    border-radius: 5px;
-} 
-.here:hover{
-    color: goldenrod !important;
+.menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #272727;
 }
