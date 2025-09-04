@@ -27,6 +27,7 @@ body {
 a.brand:hover,a.brand:focus {
     text-decoration: none;
     color: #fff
+    col
 }
 
 .brand img {
@@ -44,6 +45,7 @@ a.brand:hover,a.brand:focus {
     font-weight: 600;
     font-size: 1.714rem;
     line-height: 1
+    
 }
 
 .brand-text {
